@@ -1,0 +1,17 @@
+.popup__item-error_type_picture {
+    color: #FF0000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    font-style: normal;
+    max-width: 358px;
+    display:  inline-block;
+
+}
+
+@media (max-width: 581px) {
+    .popup__item-error_type_picture {
+        max-width: 238px;
+        min-height: 10px;
+    }
+}

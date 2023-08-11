@@ -1,0 +1,43 @@
+.element {
+    max-width: 282px;
+    background-color: #FFFFFF;
+    max-height: 361px;
+    border-radius: 10px;
+    position: relative;
+}
+
+@media (max-width: 950px) {
+    .element {
+        min-width: 350px;
+        min-height: 433px;
+    }
+}
+
+@media (max-width: 810px) {
+    .element {
+        min-width: 310px;
+        min-height: 390px;
+    }
+}
+
+@media (max-width: 710px) {
+    .element {
+        min-width: 530px;
+        min-height: 613px;
+    }
+}
+
+@media (max-width: 580px) {
+    .element {
+        min-width: 420px;
+        min-height: 537px;
+    }
+}
+
+@media (max-width: 435px) {
+    .element {
+        min-width: 91%;
+        min-height: 361px;
+        
+    }
+}

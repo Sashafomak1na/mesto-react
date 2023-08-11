@@ -1,0 +1,6 @@
+.popup__item-container {
+    max-height: 44px;
+    min-width: 358px;
+    display: flex;
+    flex-direction: column;
+}

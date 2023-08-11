@@ -1,0 +1,40 @@
+.main {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 880px;
+}
+
+@media (max-width: 950px) {
+    .main {
+        max-width: 780px;
+
+    }
+}
+
+@media (max-width: 810px) {
+    .main {
+        max-width: 680px;
+
+    }
+
+}
+
+@media (max-width: 710px) {
+    .main {
+        max-width: 530px;
+
+    }
+    
+}
+
+@media (max-width: 580px) {
+    .main {
+        padding: 0 0 27px;
+    }
+}
+
+@media (max-width: 435px) {
+    .main {
+        width: 100%;
+    }
+}

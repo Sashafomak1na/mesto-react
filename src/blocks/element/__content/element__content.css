@@ -1,0 +1,12 @@
+.element__content {
+    margin: 0;
+    display: flex;
+    padding: 25px 15px 30px 21px;
+    justify-content: space-between;
+}
+
+@media(max-width: 345px) {
+    .element__content {
+        padding-top: 20px;
+    }
+}
