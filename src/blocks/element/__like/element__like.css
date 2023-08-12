@@ -2,11 +2,10 @@
     min-width: 22px;
     height: 19px;
     align-self: center;
-    background: transparent url("../../../images/hart.svg"); 
+    background: transparent url("../../../images/hart.svg");
     cursor: pointer;
     border: none;
     padding: 0;
-    
 }
 
 .element__like:hover {
