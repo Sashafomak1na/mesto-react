@@ -1,13 +1,14 @@
 import React from "react";
 
-function PopupWithForm({ title, name, isOpen, onClose, children }) {
+function PopupWithForm({ title, name, isOpen, onClose, children, onSubmit }) {
   return (
     <div className={`popup popup_${name} ${isOpen ? "popup_opened" : ""}`}>
       <div className="popup__container">
         <form
           className="popup__container-input"
           autoComplete="off"
-          name={`form-${name}`}
+				name={`form-${name}`}
+				onSubmit={onSubmit}
         >
           <button
             type="button"
